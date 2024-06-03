@@ -21,6 +21,8 @@ Most of the memory usage and project file size comes from texture modifications.
 - **Crunch Compression**: Additional compression method using the Crunch algorithm, resulting in smaller file sizes.
 - **Crunch Comp Quality**: Sets the quality of the Crunch compression applied to textures.
 
+![Textures_Image](./01_texture_optimization.png)
+
 ---
 
 ## Audio Clips
@@ -31,6 +33,8 @@ Audio clips also influence the final project file size, especially when dealing 
 - **Load Type**: Determines how the audio clip data is loaded into memory during runtime.
 - **Force to Mono**: Always enable to reduce file size and use less memory.
 - **Quality**: Sets the audio clip compression quality.
+
+![Audio_Image](./02_audio_optimization.png)
 
 ---
 
@@ -44,6 +48,8 @@ Similar to textures, models can consume excessive memory. Here are the guideline
 - **Mesh Compression**: Agressive compression can reduce disk space.
 - **Animation Compression**: Reduces the final build size but may introduce errors in animations.
 
+![Models_Image](./03_models_optimization.png)
+
 ---
 
 ## Mobile Build
@@ -54,6 +60,8 @@ Here are the main settings that influence the final performance of projects for 
 - **Scripting Backend**: Mono by default, IL2CPP offers better performance but increases binary size.
 - **Color Space**: Gamma has better performance than Linear.
 - **VSync**: Enable Vsync might cause lag and faster battery drain. Leave it on "Don't Sync".
+
+![Webgl_Image](./04_mobile_optimization.png)
 
 ---
 
@@ -67,6 +75,8 @@ Here are the main settings that influence the final performance of projects for 
 - **Strip Engine Code**: To decrese the bundle size even more.
 - **Color Space**: Gamma has better performance than Linear.
 - **VSync**: Enable Vsync in webgl game might cause lag and faster battery drain.
+
+![Webgl_Image](./05_webgl_optimization.png)
 
 ## Links
 - Author: [@natomarcacini](https://www.github.com/natomarcacini)
